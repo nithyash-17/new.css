@@ -110,6 +110,14 @@ body {
 	color: var(--nc-ac-tx);
 }
 
+header{
+    background-color:black;
+    position:sticky;
+}
+header.h1{
+    color:darkgrey;
+}
+
 h1,h2,h3,h4,h5,h6 {
 	line-height: 1;
 	color: var(--nc-tx-1);
@@ -447,5 +455,15 @@ input {
 }
 
 img {
-	max-width: 100%;
+	max-width: 75%;
+}
+footer
+{
+    background-color: #E5E7EB;
+    position :sticky;
+    bottom: 0;
+}
+footer.p
+{
+    color: black;
 }
